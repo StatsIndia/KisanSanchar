@@ -74,4 +74,22 @@ paper-kit-react
             └── SectionTypography.js
 ```
 
+# process to execute project :
+Open Terminal or command prompt:
+Go to your file project (where you've unzipped the product)
+Run in terminal or command prompt
+1. npm install
+2. npm start
+Or you can simply run
+npm run install:clean
+
+# for development tool . 
+install https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en
+
+reference: https://reactjs.org/blog/2015/09/02/new-react-developer-tools.html
+
+#Tutorials:
+1. https://www.youtube.com/watch?v=Ke90Tje7VS0
+2. https://react-tutorial.app/
+
 
