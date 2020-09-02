@@ -24,6 +24,7 @@ import React from "react";
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import IndexHeader from "components/Headers/IndexHeader.js";
 import DemoFooter from "components/Footers/DemoFooter.js";
+import ChatbotNavbar from "components/Navbars/ChatbotNavbar.js";
 
 // index sections
 import SectionButtons from "views/index-sections/SectionButtons.js";
@@ -53,7 +54,8 @@ function Index() {
     <>      
       <IndexNavbar />      
       <IndexHeader />
-      <div className="main">                       
+      <div className="main">
+        <ChatbotNavbar />                      
         <SectionCarousel />        
         <DemoFooter />
       </div>
