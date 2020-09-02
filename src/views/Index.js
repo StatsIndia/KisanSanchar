@@ -39,6 +39,7 @@ import SectionDark from "views/index-sections/SectionDark.js";
 import SectionLogin from "views/index-sections/SectionLogin.js";
 import SectionExamples from "views/index-sections/SectionExamples.js";
 import SectionDownload from "views/index-sections/SectionDownload.js";
+import SectionHeaderMenu from "views/index-sections/SectionHeaderMenu.js";
 
 function Index() {
   document.documentElement.classList.remove("nav-open");
@@ -49,23 +50,11 @@ function Index() {
     };
   });
   return (
-    <>
-      <IndexNavbar />
+    <>      
+      <IndexNavbar />      
       <IndexHeader />
-      <div className="main">
-        <SectionButtons />
-        <SectionNavbars />
-        <SectionNavigation />
-        <SectionProgress />
-        <SectionNotifications />
-        <SectionTypography />
-        <SectionJavaScript />
-        <SectionCarousel />
-        <SectionNucleoIcons />
-        <SectionDark />
-        <SectionLogin />
-        <SectionExamples />
-        <SectionDownload />
+      <div className="main">                       
+        <SectionCarousel />        
         <DemoFooter />
       </div>
     </>

@@ -1,5 +1,14 @@
+# KisanSanchar App
+## Quick start
 
-# KisanSanchar
+1.  Download the project's zip
+2.  Make sure you have node.js (<https://nodejs.org/en/>) installed
+
+## Documentation
+The documentation for the Paper Kit React is hosted at our [website](https://demos.creative-tim.com/paper-kit-react/#/documentation/introduction?ref=pkr-github-readme).
+
+
+
 
 ## File Structure
 
